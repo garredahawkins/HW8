@@ -1,12 +1,13 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-  
-public class ShoppingCart
-{
-  
+
+import products.ProductList;
+
+public class ShoppingCart {
+
     private String customerName;
     private String currentDate;
-    private ArrayList<Product> cartItems = new ArrayList<>();
+    private ArrayList<ProductList> cartItems = new ArrayList<>();
   
     public ShoppingCart()
     {
@@ -116,7 +117,8 @@ public class ShoppingCart
             cartItems.get(i).printItemDescription();
         }
     }
-  
+    public void Product() {
+	}
     public static void printMenu(ShoppingCart cart)
     {
         System.out.println("MENU\na - Add item to cart");
@@ -129,6 +131,5 @@ public class ShoppingCart
   
     }
 
-	public void Product() {
-	}
+
 }

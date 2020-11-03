@@ -1,17 +1,19 @@
 package products;
-
-public String item1;
-public String item2;
-public String item3;
-public String item4;
-public String item5;
-private String itemName;
-private String itemDescription;
-private int itemPrice;
-private int itemQuantity;
+import java.util.Scanner;
 
 
-public ProductList()
+
+public class ProductList{
+    public String item1;
+    public String item2;
+    public String item3;
+    public String item4;
+    public String item5;
+    private String itemName;
+    private String itemDescription;
+    private int itemPrice;
+    private int itemQuantity;
+   
     {
         this.item1 = "Orange Juice";
         this.itemDescription = "A nutrient-rich liquid";
